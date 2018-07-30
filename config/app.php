@@ -212,5 +212,5 @@ return [
 
     ],
 
-    'external_api' => env('TEST_API_URL')
+    'external_api' => env('TEST_API_URL', 'https://reqres.in')
 ];
