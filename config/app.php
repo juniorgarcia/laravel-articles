@@ -159,7 +159,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\GuzzleClientServiceProvider::class,
+        App\Providers\UserDataServiceProvider::class
     ],
 
     /*
@@ -211,4 +212,5 @@ return [
 
     ],
 
+    'external_api' => env('TEST_API_URL')
 ];
